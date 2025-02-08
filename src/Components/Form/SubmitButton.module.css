@@ -1,0 +1,21 @@
+.btn{
+    background-color: #222;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+    border: none;
+    border-radius: 2em;
+
+}
+
+.btn:hover{
+    color: rgb(255, 217, 0);
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}

@@ -3,9 +3,10 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "DM Serif Text", serif;
+  
 }
 
 html body #root{
-  background-color: white;
-  height: 100%;
+  background-color: rgb(230, 230, 230);
+  height: 100vh;
 }

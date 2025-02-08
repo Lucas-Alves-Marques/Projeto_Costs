@@ -1,0 +1,15 @@
+.newproject_conteiner{
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newproject_conteiner h1{
+    margin-bottom: 0.5em;
+    color:  #222;
+}
+
+.newproject_conteiner {
+    color: rgb(94, 94, 94);
+}
+
