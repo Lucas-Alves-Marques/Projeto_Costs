@@ -1,15 +1,20 @@
 .newproject_conteiner{
-    width: 450px;
     margin: 0 auto;
     padding: 3em;
 }
 
 .newproject_conteiner h1{
+    font-size: 3rem;
     margin-bottom: 0.5em;
     color:  #222;
+    text-align: center;
 }
 
 .newproject_conteiner {
     color: rgb(94, 94, 94);
+}
+
+.newproject_conteiner p{
+    font-size: 1.5rem;
 }
 

@@ -14,9 +14,9 @@
 
 .home_conteiner h1 span{
     color: rgb(255, 217, 0);
-    padding: 0.3em;
+    padding: 5px;
     background-color: #222;
-    border-radius: 0.6em;
+    border-radius: 20px;
 }
 
 .home_conteiner P{
