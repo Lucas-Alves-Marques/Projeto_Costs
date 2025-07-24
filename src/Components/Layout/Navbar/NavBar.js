@@ -8,7 +8,7 @@ function NavBar() {
     return (
         <nav className={Styles.navbar}>
 
-            <Conteiner>
+            <Conteiner customClass='between'>
 
                 <Link to={'/'}><img src={Logo} alt="Logo do Projeto"></img></Link>
                 <ul className={Styles.list}>
