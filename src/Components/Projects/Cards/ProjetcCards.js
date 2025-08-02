@@ -7,6 +7,14 @@ function Card({ id, name, budget, category, handleRemove }) {
 
     const navigate = useNavigate();
 
+    const remove = (e) => {
+
+        e.preventDefault();
+
+        handleRemove(id);
+
+    };
+
     return (
 
         <div className={Style.project_card}>
@@ -25,13 +33,13 @@ function Card({ id, name, budget, category, handleRemove }) {
             </p>
             <div className={Style.project_card_action}>
 
-                <p onClick={() => { navigate('/') }}>
+                <p onClick={() => { navigate(`/project/${id}`) }}>
 
                     <Pencil />
                     Editar
 
                 </p>
-                <p onClick={() => { navigate('/') }}>
+                <p onClick={remove}>
 
                     <Trash />
                     Remover
