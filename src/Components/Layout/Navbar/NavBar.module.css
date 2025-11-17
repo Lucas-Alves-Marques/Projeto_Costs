@@ -2,17 +2,16 @@
     justify-content: space-between; 
     background-color: #222;
     padding: 2em;
+    font-size: large;
 }
 
 .list{
     display: flex;
     list-style: none;
     align-items:center;
+    gap: 1.5rem;
 }
 
-.item{
-    margin-left: 1em;
-}
 
 .item a{
     color: white;

@@ -1,0 +1,57 @@
+.mainContacts {
+
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.contatcs {
+
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    border: 3px solid;
+    border-radius: 2rem;
+    box-shadow: 15px 15px 50px black;
+
+}
+
+.contatcs img {
+
+    height: 20rem;
+    border-radius: 2rem;
+
+}
+
+.links {
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.alingContats {
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 1rem;
+
+}
+
+.alingContats svg {
+
+    color: black;
+    font-size: 1.5rem;
+
+
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+    font-size: large;
+}

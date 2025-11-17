@@ -2,8 +2,12 @@
     padding: 1em;
     border: 1px solid grey;
     border-radius: 5px;
-    width: 20%;
-    margin: 0.5% 2%;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 12px 12px 50px black;
+
 }
 
 .project_card h4 {

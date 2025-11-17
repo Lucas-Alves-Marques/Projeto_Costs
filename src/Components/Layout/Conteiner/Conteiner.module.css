@@ -3,10 +3,7 @@
     justify-content: space-between;
     margin: 0 auto;
     flex-wrap: wrap;
-}
-
-.min-height {
-    min-height: 75%;
+    width: 100%;
 }
 
 .start{
@@ -20,4 +17,11 @@
 
 .center{
     justify-content: center;
+}
+
+.grid{
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+    flex-wrap: wrap;
 }

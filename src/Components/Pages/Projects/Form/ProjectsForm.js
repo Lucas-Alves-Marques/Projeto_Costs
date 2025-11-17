@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
-import Input from '../../Form/Input/Input';
-import Select from '../../Form/Select/Select';
-import SubmitButton from '../../Form/SubmitButton/SubmitButton';
-import styles from './ProjetcForm.module.css'
+import Input from '../../../Form/Input/Input';
+import Select from '../../../Form/Select/Select';
+import SubmitButton from '../../../Form/SubmitButton/SubmitButton';
+import styles from './ProjetcForm.module.css';
+import BaseURL from '../../../../Config/url';
 
 function ProjectForm({ handleSubmit, ProjectData, textBtn }) {
 
@@ -13,8 +14,6 @@ function ProjectForm({ handleSubmit, ProjectData, textBtn }) {
     const submit = (e) => {
 
         e.preventDefault();
-
-        // console.log(project);
 
         handleSubmit(project);
 
@@ -41,7 +40,7 @@ function ProjectForm({ handleSubmit, ProjectData, textBtn }) {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/categories', {
+        fetch(`${BaseURL}/categories`, {
 
             method: "GET",
             headers: { 'Content-Type': 'application/json' },

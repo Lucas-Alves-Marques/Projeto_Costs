@@ -1,6 +1,7 @@
-import ProjectForm from '../../Projects/Form/ProjectsForm';
+import ProjectForm from '../Projects/Form/ProjectsForm';
 import styles from './NewProjects.module.css';
 import { useNavigate } from 'react-router-dom';
+import BaseURL from '../../../Config/url';
 
 function NewProject() {
 
@@ -15,7 +16,7 @@ function NewProject() {
         project.cost = 0;
         project.services = [];
 
-        fetch('http://localhost:5000/projects', {
+        fetch(`${BaseURL}/projects`, {
 
             method: 'POST',
             headers: { 'Content-Type': 'application/json', },

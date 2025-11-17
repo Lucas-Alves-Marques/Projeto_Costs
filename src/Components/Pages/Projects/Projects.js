@@ -3,9 +3,10 @@ import Message from "../../Layout/Message/Message";
 import Styles from './Projects.module.css';
 import Conteiner from '../../Layout/Conteiner/Conteiner';
 import LinkButton from "../LinkButton";
-import ProjectCard from '../../Projects/Cards/ProjetcCards.js';
+import ProjectCard from './Cards/ProjetcCards.js';
 import { useEffect, useState } from "react";
 import Loading from "../../Layout/Loading/Loading.jsx";
+import BaseURL from "../../../Config/url.jsx";
 
 function Projects() {
 
@@ -23,7 +24,7 @@ function Projects() {
 
         setTimeout(() => {
 
-            fetch('http://localhost:5000/projects', {
+            fetch(`${BaseURL}/projects`, {
 
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' }
@@ -45,7 +46,7 @@ function Projects() {
 
     function revomeProject(id_project){
 
-        fetch(`http://localhost:5000/projects/${id_project}`,{
+        fetch(`${BaseURL}/projects/${id_project}`,{
 
             method:'DELETE',
             headers: {
@@ -86,7 +87,7 @@ function Projects() {
                 <Message msg={projectMessage} type={'success'} />
 
             }
-            <Conteiner customClass='center'>
+            <Conteiner customClass='grid'>
 
                 {projects.length > 0 &&
 

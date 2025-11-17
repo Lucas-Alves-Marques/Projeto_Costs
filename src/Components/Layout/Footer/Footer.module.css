@@ -11,18 +11,19 @@
     display: flex;
     justify-content: center;
     list-style-type: none;
+    gap: 2rem;
 }
 
-.social_list li{
-    margin: 0 1em;
+.social_list li a{
+    color: white;
 }
 
-.social_list li:hover{
+.social_list li a:hover{
     color: rgb(255, 217, 0);
 }
 
 .social_list li svg{
-    font-size: 1.5em;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 

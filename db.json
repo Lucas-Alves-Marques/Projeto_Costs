@@ -3,7 +3,7 @@
     {
       "id": "111d",
       "name": "Projeto 1",
-      "budget": "3000",
+      "budget": "35000",
       "category": {
         "id": "3",
         "name": "Desing"
@@ -15,6 +15,24 @@
       "id": "5f0c",
       "name": "Projeto 3",
       "budget": "8000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 500,
+      "services": [
+        {
+          "name": "Contratar Dev Back-End",
+          "cost": "500",
+          "description": "Fazer API personalizada para o sistema",
+          "id": "f5340764-aa8c-4981-9180-3de89ba7cfee"
+        }
+      ]
+    },
+    {
+      "id": "4b0b",
+      "name": "Projeto de teste",
+      "budget": "9000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
